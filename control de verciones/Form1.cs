@@ -16,5 +16,10 @@ namespace control_de_verciones
         {
             InitializeComponent();
         }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            pantalla.Text = pantalla.Text + "0";
+        }
     }
 }
